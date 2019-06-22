@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
  */
 public class TestLoad {
 
-    @Test
+    @Test(enabled = false)
     public void testLoadProperty() {
         BaseTest baseTest = new BaseTest();
         System.out.println(baseTest.properties.getProperty("HOST"));
