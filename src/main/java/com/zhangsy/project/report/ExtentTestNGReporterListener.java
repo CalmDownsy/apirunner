@@ -100,8 +100,8 @@ public class ExtentTestNGReporterListener implements IReporter {
 //        创建报告
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(OUTPUT_FOLDER + FILE_NAME);
 //        设置标题、样式等
-        htmlReporter.config().setDocumentTitle("api自动化测试报告");
-        htmlReporter.config().setReportName("api自动化测试报告");
+        htmlReporter.config().setDocumentTitle("AutoTestReport-API");
+        htmlReporter.config().setReportName("AutoTestReport-API");
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
         htmlReporter.config().setResourceCDN(ResourceCDN.EXTENTREPORTS);
